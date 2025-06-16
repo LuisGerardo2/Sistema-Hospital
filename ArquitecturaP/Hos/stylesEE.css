@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.paciente {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1000px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.izquierda {
+    width: 30%;
+}
+
+.foto-paciente {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.derecha {
+    width: 65%;
+    text-align: left;
+}
+
+.derecha p {
+    margin: 5px 0;
+}
+
+.derecha p strong {
+    color: #2092B8;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2092B8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #157a94;
+}
